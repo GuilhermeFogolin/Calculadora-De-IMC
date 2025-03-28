@@ -5,16 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AbaixoDoPesoActivity"
+    tools:context=".PesoNormalActivity"
     android:background="@color/branco">
 
     <ImageView
-        android:id="@+id/iv_abaixo_do_peso"
+        android:id="@+id/iv_normal"
         android:layout_width="229dp"
         android:layout_height="193dp"
-        android:contentDescription="@string/descricao_img_abaixo"
-        android:src="@drawable/thinman"
-        app:layout_constraintBottom_toTopOf="@+id/btnFecharAbaixoDoPeso"
+        android:contentDescription="@string/descricao_img_normal"
+        android:src="@drawable/normal"
+        app:layout_constraintBottom_toTopOf="@+id/btnFecharNormal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
         android:layout_height="4dp"
         android:layout_marginBottom="25dp"
         android:background="@color/cinza_claro"
-        app:layout_constraintBottom_toTopOf="@+id/iv_abaixo_do_peso"
+        app:layout_constraintBottom_toTopOf="@+id/iv_normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.277"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +69,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnFecharAbaixoDoPeso"
+        android:id="@+id/btnFecharNormal"
         android:layout_width="210dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/verde_claro"
@@ -88,7 +88,7 @@
         app:layout_constraintVertical_bias="0.95" />
 
     <TextView
-        android:id="@+id/tv_abaixo_peso"
+        android:id="@+id/tv_normal_peso"
         android:layout_width="268dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
@@ -102,10 +102,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_abaixo_do_peso" />
+        app:layout_constraintTop_toBottomOf="@+id/iv_normal" />
 
     <TextView
-        android:id="@+id/tv_abaixo_altura"
+        android:id="@+id/tv_normal_altura"
         android:layout_width="268dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -120,10 +120,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_abaixo_peso" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_normal_peso" />
 
     <TextView
-        android:id="@+id/tv_abaixo_imc"
+        android:id="@+id/tv_normal_imc"
         android:layout_width="268dp"
         android:layout_height="57dp"
         android:layout_gravity="center"
@@ -138,41 +138,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_abaixo_peso" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_normal_peso" />
 
     <TextView
-        android:id="@+id/tv_abaixo_classificacao"
+        android:id="@+id/tv_normal_classificacao"
         android:layout_width="314dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="160dp"
         android:fontFamily="monospace"
         android:gravity="center"
-        android:text="@string/classificacao_abaixoHint"
+        android:text="@string/classificacao_normalHint1"
         android:textAlignment="center"
         android:textColor="@color/verde_escuro"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_abaixo_peso" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_normal_peso" />
 
     <TextView
-        android:id="@+id/tv_abaixo_frase"
+        android:id="@+id/tv_normal_frase"
         android:layout_width="397dp"
         android:layout_height="73dp"
         android:layout_gravity="center"
+        android:layout_marginTop="5dp"
         android:fontFamily="monospace"
         android:gravity="center"
-        android:text="@string/frase_abaixoHint"
+        android:text="@string/frase_normalHint"
         android:textAlignment="center"
         android:textColor="@color/cinza_escuro"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btnFecharAbaixoDoPeso"
+        app:layout_constraintBottom_toTopOf="@+id/btnFecharNormal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_abaixo_classificacao"
-        app:layout_constraintVertical_bias="0.619" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_normal_classificacao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

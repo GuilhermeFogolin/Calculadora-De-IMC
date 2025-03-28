@@ -8,20 +8,27 @@
 
     <!-- Tela para calculadora (CalculoIMCActivity) -->
     <string name="descricao_img_balanca"> Imagem de uma balança </string>
-    <string name="calcularHint1"> Digite seu peso (em kg): </string>
-    <string name="calcularHint2"> Digite sua altura (em m): </string>
+    <string name="calcularHint1"> Digite seu peso (em kg) </string>
+    <string name="calcularHint2"> Digite sua altura (em m) </string>
     <string name="btn_Calcular"> CALCULAR </string>"
     <string name="btn_Limpar"> LIMPAR </string>"
     <string name="btn_Fechar_calculadora"> FECHAR </string>
 
-    <!-- Tela de resultado (ResultadoActivity) -->
+    <!-- Itens comuns para telas de resultados -->
+    <string name="peso_Hint"> </string>
+    <string name="altura_Hint"> </string>
+    <string name="imc_Hint"> </string>
+    <string name="btn_Fechar"> FECHAR </string>
+    
+    <!-- Tela para Abaixo do Peso (AbaixoDoPesoActivity) -->
     <string name="descricao_img_abaixo"> Pessoa magra </string>
-    <string name="peso_abaixoHint1"> </string>
-    <string name="altura_abaixoHint1"> </string>
-    <string name="imc_abaixoHint1"> </string>
-    <string name="classificacao_abaixoHint1"> Resultado: abaixo do peso </string>
-    <string name="frase_abaixoHint1"> Cuide da sua nutrição! 🍉 </string>
-    <string name="btn_Fechar_abaixo"> FECHAR </string>
+    <string name="classificacao_abaixoHint"> Resultado: abaixo do peso </string>
+    <string name="frase_abaixoHint"> Cuide da sua nutrição! 🍉 </string>
+    
+    <!-- Tela para Peso normal (PesoNormalActivity) -->
+    <string name="descricao_img_normal"> Pessoa normal </string>
+    <string name="classificacao_normalHint1"> Resultado: peso normal </string>
+    <string name="frase_normalHint"> Ótimo trabalho! 😎 </string>
 </resources>
 
 
