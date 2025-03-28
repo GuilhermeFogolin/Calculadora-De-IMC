@@ -1,4 +1,4 @@
-# 📱 Projeto Calculadora para IMC - FECAP 2025
+# 📱 Projeto Calculadora para IMC
 
 ---
 
@@ -13,6 +13,8 @@
 ⚖️ O aplicativo demonstra o uso de múltiplas Activities, manipulação de imagens, entrada e saída de dados através de PlainText e TextView, e lógica de programação para cálculos e condicionais. 
 
 😎 Além disso, o projeto visa a aplicação de boas práticas de desenvolvimento, a exploração da criatividade e aplicação de uma paleta de cores definida (padrão da [FECAP](https://www.fecap.br))
+
+🏫 A calculadora foi construída como requisito para a Nota Intermediária I da matéria de Programação para Dispositivos Móveis, ministrada pelo [Professor Vinicius Heltai](https://www.linkedin.com/in/vheltai/). FECAP - 2025 - Terceiro semestre de Ciência da Computação.
 
 ---
 
@@ -33,11 +35,11 @@ Peso normal: 18.5 <= IMC < 25
 
 Sobrepeso: 25 <= IMC < 30
 
-Obesidade grau 1: 30 <= IMC < 35
+Obesidade grau I: 30 <= IMC < 35
 
-Obesidade grau 2: 35 <= IMC < 40
+Obesidade grau II: 35 <= IMC < 40
 
-Obesidade grau 3: IMC >= 40
+Obesidade grau III IMC >= 40
 ```
 ---
 
