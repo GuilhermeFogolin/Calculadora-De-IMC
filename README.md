@@ -46,6 +46,7 @@ Obesidade grau 3: IMC >= 40
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white)
 
 ---
 
@@ -59,8 +60,33 @@ Obesidade grau 3: IMC >= 40
 
 🧬 Respeitando o ciclo de vida de uma aplicação mobile, todas as telas têm os respectivos métodos: `onCreate | onStart | onRestart | onResume | onPause | onStop onDestroy`.
 
+---
+
 ## 📂 Organização das pastas
+
+🎯Além das pastas comuns para um projeto Mobile com seus códigos fontes, há a pasta `apk` com a versão final do aplicativo e também `pastaZip` com uma versão compactada da Calculadora. 
+
+---
 
 ## ⚙️ Como instalar localmente?
 
+```
+1 - Faça o download do arquivo .zip na pasta pastaZip.
+2 - Descompacte os arquivos.
+3 - Abra a pasta no Android Studio na versão Ladybug Feature Drop | 2024.2.2
+4 - Aguarde a instalação das dependências.
+5 - Rode o app e aproveite!
+```
+
+---
+
 ## 🤳 Como testar no seu celular Android?
+
+```
+1 - Exporte o arquivo da pasta apk para o seu celular Android (iOS não é suportado).
+2 - Instale o aplicativo pelo próprio sistema.
+3 - Caso indique problemas com vírus e afins pode apertar em confiar.
+4 - Abra o app e conheça todas suas funcionalidades!
+
+
+```
