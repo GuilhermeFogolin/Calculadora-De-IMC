@@ -15,26 +15,26 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.text.DecimalFormat;
 
-public class Obesidade1Activity extends AppCompatActivity {
+public class Obesidade2Activity extends AppCompatActivity {
 
     // Instanciando os elementos:
-    private Button btnFecharObs1;
-    private TextView tv_obs1_peso;
-    private TextView tv_obs1_altura;
-    private TextView tv_obs1_imc;
+    private Button btnFecharObs2;
+    private TextView tv_obs2_peso;
+    private TextView tv_obs2_altura;
+    private TextView tv_obs2_imc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_obesidade1);
+        setContentView(R.layout.activity_obesidade2);
 
-        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onCreate");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauII - onCreate");
 
-        btnFecharObs1 = findViewById(R.id.btnFecharObs1);
-        tv_obs1_peso = findViewById(R.id.tv_obs1_peso);
-        tv_obs1_altura = findViewById(R.id.tv_obs1_altura);
-        tv_obs1_imc = findViewById(R.id.tv_obs1_imc);
+        btnFecharObs2 = findViewById(R.id.btnFecharObs2);
+        tv_obs2_peso = findViewById(R.id.tv_obs2_peso);
+        tv_obs2_altura = findViewById(R.id.tv_obs2_altura);
+        tv_obs2_imc = findViewById(R.id.tv_obs2_imc);
 
         // Recebendo os dados da CalculoIMCActivity: Intent e itens extras.
 
@@ -56,9 +56,9 @@ public class Obesidade1Activity extends AppCompatActivity {
 
         // Imprimindo resultados:
 
-        tv_obs1_peso.setText("Peso: " + resPeso + " kg");
-        tv_obs1_altura.setText("Altura: " + resAltura + " m");
-        tv_obs1_imc.setText("IMC: " + imcFormatado + " kg/m²");
+        tv_obs2_peso.setText("Peso: " + resPeso + " kg");
+        tv_obs2_altura.setText("Altura: " + resAltura + " m");
+        tv_obs2_imc.setText("IMC: " + imcFormatado + " kg/m²");
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -70,42 +70,42 @@ public class Obesidade1Activity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onResume");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauII - onResume");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onPause");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauII - onPause");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onDestroy");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauII - onDestroy");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onStop");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauII - onStop");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onRestart");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauII - onRestart");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onStart");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauII - onStart");
     }
 
     // Função para retornar para tela principal:
     public void fechar(View v) {
-        Intent intent = new Intent(Obesidade1Activity.this, MainActivity.class);
+        Intent intent = new Intent(Obesidade2Activity.this, MainActivity.class);
         startActivity(intent);
         finish();
     }

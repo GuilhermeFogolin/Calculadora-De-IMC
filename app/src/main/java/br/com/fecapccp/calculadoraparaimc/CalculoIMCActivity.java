@@ -114,6 +114,8 @@ public class CalculoIMCActivity extends AppCompatActivity {
             intent = new Intent(this, SobrepesoActivity.class);
         } else if(calcular < 35) {
             intent = new Intent(this, Obesidade1Activity.class);
+        } else if(calcular < 40) {
+            intent = new Intent(this, Obesidade2Activity.class);
         }
 
         // Recuperando valores e inicializando a intent
@@ -124,7 +126,6 @@ public class CalculoIMCActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
-
     public void limpar(View v) {
 
         etPeso.setText(""); // Apaga o conteúdo do campo de Peso

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Obesidade2Activity"
+    android:background="@color/branco">
+
+    <ImageView
+        android:id="@+id/iv_obs2"
+        android:layout_width="229dp"
+        android:layout_height="193dp"
+        android:contentDescription="@string/descricao_img_obs2"
+        android:src="@drawable/obs2"
+        app:layout_constraintBottom_toTopOf="@+id/btnFecharObs2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="421dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/verde_escuro"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-1dp">
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_main1"
+        android:layout_width="429dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/cinza_claro"
+        app:layout_constraintBottom_toTopOf="@+id/iv_obs2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="421dp"
+        android:layout_height="20dp"
+        android:background="@color/verde_escuro"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:id="@+id/view_main2"
+            android:layout_width="429dp"
+            android:layout_height="4dp"
+            android:background="@color/cinza_claro" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFecharObs2"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/verde_claro"
+        android:fontFamily="monospace"
+        android:onClick="fechar"
+        android:text="@string/btn_Fechar"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/tv_obs2_peso"
+        android:layout_width="268dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/peso_Hint"
+        android:textAlignment="center"
+        android:textColor="@color/verde_escuro"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_obs2" />
+
+    <TextView
+        android:id="@+id/tv_obs2_altura"
+        android:layout_width="268dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/altura_Hint"
+        android:textAlignment="center"
+        android:textColor="@color/verde_escuro"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_obs2_peso" />
+
+    <TextView
+        android:id="@+id/tv_obs2_imc"
+        android:layout_width="268dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="76dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/imc_Hint"
+        android:textAlignment="center"
+        android:textColor="@color/verde_escuro"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_obs2_peso" />
+
+    <TextView
+        android:id="@+id/tv_obs2_classificacao"
+        android:layout_width="389dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="168dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/classificacao_obs2Hint"
+        android:textAlignment="center"
+        android:textColor="@color/verde_escuro"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_obs2_peso" />
+
+    <TextView
+        android:id="@+id/tv_obs2_frase"
+        android:layout_width="397dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/frase_obs2Hint"
+        android:textAlignment="center"
+        android:textColor="@color/cinza_escuro"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnFecharObs2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_obs2_classificacao"
+        app:layout_constraintVertical_bias="0.714" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

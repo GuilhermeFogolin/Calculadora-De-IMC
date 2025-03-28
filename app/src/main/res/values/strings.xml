@@ -39,6 +39,11 @@
     <string name="descricao_img_obs1"> Pessoa obesa1 </string>
     <string name="classificacao_obs1Hint"> Resultado: obesidade I </string>
     <string name="frase_obs1Hint"> Saúde é prioridade! 👩‍⚕️ </string>
+
+    <!-- Tela para Obesidade Grau II (Obesidade2Activity) -->
+    <string name="descricao_img_obs2"> Pessoa obesa2 </string>
+    <string name="classificacao_obs2Hint"> Resultado: obesidade II </string>
+    <string name="frase_obs2Hint"> Reverter é essencial! 🏃 </string>
 </resources>
 
 
