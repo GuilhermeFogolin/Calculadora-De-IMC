@@ -106,7 +106,7 @@ public class CalculoIMCActivity extends AppCompatActivity {
 
         Intent intent = null;
 
-        if(calcular < 18.5) { // 50 e 1.7
+        if(calcular < 18.5) { // 50 e 1.75
             intent = new Intent(this, AbaixoDoPesoActivity.class);
         } else if(calcular < 25) { // 68 e 1.75
             intent = new Intent(this, PesoNormalActivity.class);
