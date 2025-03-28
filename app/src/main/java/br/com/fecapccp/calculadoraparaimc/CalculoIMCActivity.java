@@ -110,6 +110,10 @@ public class CalculoIMCActivity extends AppCompatActivity {
             intent = new Intent(this, AbaixoDoPesoActivity.class);
         } else if(calcular < 25) {
             intent = new Intent(this, PesoNormalActivity.class);
+        } else if(calcular < 30) {
+            intent = new Intent(this, SobrepesoActivity.class);
+        } else if(calcular < 35) {
+            intent = new Intent(this, Obesidade1Activity.class);
         }
 
         // Recuperando valores e inicializando a intent

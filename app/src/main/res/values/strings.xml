@@ -19,20 +19,30 @@
     <string name="altura_Hint"> </string>
     <string name="imc_Hint"> </string>
     <string name="btn_Fechar"> FECHAR </string>
-    
+
     <!-- Tela para Abaixo do Peso (AbaixoDoPesoActivity) -->
     <string name="descricao_img_abaixo"> Pessoa magra </string>
     <string name="classificacao_abaixoHint"> Resultado: abaixo do peso </string>
     <string name="frase_abaixoHint"> Cuide da sua nutrição! 🍉 </string>
-    
+
     <!-- Tela para Peso normal (PesoNormalActivity) -->
     <string name="descricao_img_normal"> Pessoa normal </string>
-    <string name="classificacao_normalHint1"> Resultado: peso normal </string>
+    <string name="classificacao_normalHint"> Resultado: peso normal </string>
     <string name="frase_normalHint"> Ótimo trabalho! 😎 </string>
+
+    <!-- Tela para Sobrepeso (SobrepesoActivity) -->
+    <string name="descricao_img_sobrepeso"> Pessoa sobrepeso </string>
+    <string name="classificacao_sobrepesoHint"> Resultado: sobrepeso </string>
+    <string name="frase_sobrepesoHint"> Vamos reverter? 💪 </string>
+
+    <!-- Tela para Obesidade Grau I (Obesidade1Activity) -->
+    <string name="descricao_img_obs1"> Pessoa obesa1 </string>
+    <string name="classificacao_obs1Hint"> Resultado: obesidade I </string>
+    <string name="frase_obs1Hint"> Saúde é prioridade! 👩‍⚕️ </string>
 </resources>
 
 
-   <!-- Abaixo do peso (AbaixoDoPesoActivity)
+    <!-- Abaixo do peso (AbaixoDoPesoActivity)
     “Cuide da sua nutrição! Alimentação equilibrada e acompanhamento profissional podem fazer a diferença.”
 
     Peso normal (PesoNormalActivity)

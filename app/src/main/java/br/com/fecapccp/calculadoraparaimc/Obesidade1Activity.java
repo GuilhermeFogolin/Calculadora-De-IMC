@@ -15,26 +15,26 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.text.DecimalFormat;
 
-public class PesoNormalActivity extends AppCompatActivity {
+public class Obesidade1Activity extends AppCompatActivity {
 
     // Instanciando os elementos:
-    private Button btnFecharNormal;
-    private TextView tv_normal_peso;
-    private TextView tv_normal_altura;
-    private TextView tv_normal_imc;
+    private Button btnFecharObs1;
+    private TextView tv_obs1_peso;
+    private TextView tv_obs1_altura;
+    private TextView tv_obs1_imc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_peso_normal);
+        setContentView(R.layout.activity_obesidade1);
 
-        Log.i("Ciclo de Vida", "Tela Peso Normal - onCreate");
+        Log.i("Ciclo de Vida", "Tela Sobrepeso - onCreate");
 
-        btnFecharNormal = findViewById(R.id.btnFecharNormal);
-        tv_normal_peso = findViewById(R.id.tv_normal_peso);
-        tv_normal_altura = findViewById(R.id.tv_normal_altura);
-        tv_normal_imc = findViewById(R.id.tv_normal_imc);
+        btnFecharObs1 = findViewById(R.id.btnFecharObs1);
+        tv_obs1_peso = findViewById(R.id.tv_obs1_peso);
+        tv_obs1_altura = findViewById(R.id.tv_obs1_altura);
+        tv_obs1_imc = findViewById(R.id.tv_obs1_imc);
 
         // Recebendo os dados da CalculoIMCActivity: Intent e itens extras.
 
@@ -56,9 +56,9 @@ public class PesoNormalActivity extends AppCompatActivity {
 
         // Imprimindo resultados:
 
-        tv_normal_peso.setText("Peso: " + resPeso + " kg");
-        tv_normal_altura.setText("Altura: " + resAltura + " m");
-        tv_normal_imc.setText("IMC: " + imcFormatado + " kg/m²");
+        tv_obs1_peso.setText("Peso: " + resPeso + " kg");
+        tv_obs1_altura.setText("Altura: " + resAltura + " m");
+        tv_obs1_imc.setText("IMC: " + imcFormatado + " kg/m²");
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -70,42 +70,42 @@ public class PesoNormalActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i("Ciclo de Vida", "Tela Peso Normal - onResume");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onResume");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i("Ciclo de Vida", "Tela Peso Normal - onPause");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onPause");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i("Ciclo de Vida", "Tela Peso Normal - onDestroy");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onDestroy");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i("Ciclo de Vida", "Tela Peso Normal - onStop");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onStop");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.i("Ciclo de Vida", "Tela Peso Normal - onRestart");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onRestart");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i("Ciclo de Vida", "Tela Peso Normal - onStart");
+        Log.i("Ciclo de Vida", "Tela ObesidadeGrauI - onStart");
     }
 
     // Função para retornar para tela principal:
     public void fechar(View v) {
-        Intent intent = new Intent(PesoNormalActivity.this, MainActivity.class);
+        Intent intent = new Intent(Obesidade1Activity.this, MainActivity.class);
         startActivity(intent);
         finish();
     }
