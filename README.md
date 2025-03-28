@@ -2,17 +2,17 @@
 
 ---
 
-## Autoria: [Guilherme Reis Fogolin de Godoy](https://www.linkedin.com/in/guilhermefogolin/) - Terceiro Semestre de Ciência da Computação (2025.3)
+## Autoria: [Guilherme Reis Fogolin de Godoy](https://www.linkedin.com/in/guilhermefogolin/)
 
 ---
 
 ## 📄Descrição
 
-✅ Esse projeto visa desenvolver um aplicativo Android em Java que calcula o Índice de Massa Corporal (IMC) e exibeum feedback positivo personalizado para cada categoria de IMC. 
+✅ Esse projeto visa desenvolver um aplicativo Android, em Java, que calcula o Índice de Massa Corporal (IMC) e exibe um feedback positivo personalizado para cada categoria de IMC. 
 
 ⚖️ O aplicativo demonstra o uso de múltiplas Activities, manipulação de imagens, entrada e saída de dados através de PlainText e TextView, e lógica de programação para cálculos e condicionais. 
 
-😎 Além disso, o projeto visa a aplicação de boas práticas de desenvolvimento, a exploração da criatividade e aplicaçãode uma paleta de cores definida (padrão da [FECAP](https://www.fecap.br))
+😎 Além disso, o projeto visa a aplicação de boas práticas de desenvolvimento, a exploração da criatividade e aplicação de uma paleta de cores definida (padrão da [FECAP](https://www.fecap.br))
 
 ---
 
