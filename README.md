@@ -89,6 +89,4 @@ Obesidade grau III IMC >= 40
 2 - Instale o aplicativo pelo próprio sistema.
 3 - Caso indique problemas com vírus e afins pode apertar em confiar.
 4 - Abra o app e conheça todas suas funcionalidades!
-
-
 ```
