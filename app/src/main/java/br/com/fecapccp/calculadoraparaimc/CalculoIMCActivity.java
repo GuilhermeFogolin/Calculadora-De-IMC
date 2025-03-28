@@ -106,17 +106,17 @@ public class CalculoIMCActivity extends AppCompatActivity {
 
         Intent intent = null;
 
-        if(calcular < 18.5) {
+        if(calcular < 18.5) { // 50 e 1.7
             intent = new Intent(this, AbaixoDoPesoActivity.class);
-        } else if(calcular < 25) {
+        } else if(calcular < 25) { // 68 e 1.75
             intent = new Intent(this, PesoNormalActivity.class);
-        } else if(calcular < 30) {
+        } else if(calcular < 30) { // 80 e 1.75
             intent = new Intent(this, SobrepesoActivity.class);
-        } else if(calcular < 35) {
+        } else if(calcular < 35) { // 100 e 1.75
             intent = new Intent(this, Obesidade1Activity.class);
-        } else if(calcular < 40) {
+        } else if(calcular < 40) { // 115 e 1.75
             intent = new Intent(this, Obesidade2Activity.class);
-        } else {
+        } else { // 138 e 1.75
             intent = new Intent(this, Obesidade3Activity.class);
         }
 
