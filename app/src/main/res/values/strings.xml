@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Tela principal (MainActivity) -->
+    <string name="app_name">CalculadoraParaIMC</string>
+    <string name="btnMain"> CALCULADORA IMC </string>
+    <string name="fecap"> FECAP - 2025 GUILHERME FOGOLIN </string>
+    <string name="descricao_img_main"> Calculadora de IMC</string>
+
+    <!-- Tela para calculadora (CalculoIMCActivity) -->
+    <string name="descricao_img_balanca"> Imagem de uma balança </string>
+    <string name="calcularHint1"> Digite seu peso (em kg): </string>
+    <string name="calcularHint2"> Digite sua altura (em m): </string>
+    <string name="btn_Calcular"> CALCULAR </string>"
+    <string name="btn_Limpar"> LIMPAR </string>"
+    <string name="btn_Fechar_calculadora"> FECHAR </string>
+
+    <!-- Tela de resultado (ResultadoActivity) -->
+    <string name="descricao_img_abaixo"> Pessoa magra </string>
+    <string name="peso_abaixoHint1"> </string>
+    <string name="altura_abaixoHint1"> </string>
+    <string name="imc_abaixoHint1"> </string>
+    <string name="classificacao_abaixoHint1"> Resultado: abaixo do peso </string>
+    <string name="frase_abaixoHint1"> Cuide da sua nutrição! 🍉 </string>
+    <string name="btn_Fechar_abaixo"> FECHAR </string>
+</resources>
+
+
+   <!-- Abaixo do peso (AbaixoDoPesoActivity)
+    “Cuide da sua nutrição! Alimentação equilibrada e acompanhamento profissional podem fazer a diferença.”
+
+    Peso normal (PesoNormalActivity)
+    “Ótimo trabalho! Continue mantendo hábitos saudáveis para seu bem-estar.”
+
+    Sobrepeso (SobrepesoActivity)
+    “Pequenas mudanças no dia a dia fazem a diferença! Que tal incluir mais movimento e escolhas equilibradas?”
+
+    Obesidade grau 1 (Obesidade1Activity)
+    “Seu bem-estar é prioridade! Um passo de cada vez pode levar a grandes mudanças.”
+
+    Obesidade grau 2 (Obesidade2Activity)
+    “Seu corpo merece cuidado! Busque orientação e dê o primeiro passo para uma vida mais saudável.”
+
+    Obesidade grau 3 (Obesidade3Activity)
+    “Você tem o poder de transformar sua saúde! Conte com apoio profissional e faça escolhas positivas.” -->

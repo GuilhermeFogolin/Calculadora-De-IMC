@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculoIMCActivity"
+    android:background="@color/branco">
+
+    <ImageView
+        android:id="@+id/iv_calculadora"
+        android:layout_width="229dp"
+        android:layout_height="193dp"
+        android:contentDescription="@string/descricao_img_balanca"
+        android:src="@drawable/balanca"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="421dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/verde_escuro"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-1dp">
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_main1"
+        android:layout_width="429dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/cinza_claro"
+        app:layout_constraintBottom_toTopOf="@+id/iv_calculadora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="421dp"
+        android:layout_height="20dp"
+        android:background="@color/verde_escuro"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:id="@+id/view_main2"
+            android:layout_width="429dp"
+            android:layout_height="4dp"
+            android:background="@color/cinza_claro" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_peso"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:background="@color/verde_claro"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp"
+        android:hint="@string/calcularHint1"
+        android:textAlignment="center"
+        android:textColor="@color/cinza_escuro"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_calculadora"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <EditText
+        android:id="@+id/et_altura"
+        android:layout_width="288dp"
+        android:layout_height="56dp"
+        android:background="@color/verde_claro"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp"
+        android:hint="@string/calcularHint2"
+        android:textAlignment="center"
+        android:textColor="@color/cinza_escuro"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_peso" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/verde_claro"
+        android:fontFamily="monospace"
+        android:text="@string/btn_Calcular"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/verde_claro"
+        android:fontFamily="monospace"
+        android:onClick="limpar"
+        android:text="@string/btn_Limpar"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/verde_claro"
+        android:fontFamily="monospace"
+        android:text="@string/btn_Fechar_calculadora"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLimpar"
+        app:layout_constraintVertical_bias="0.305" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
