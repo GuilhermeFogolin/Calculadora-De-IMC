@@ -44,23 +44,10 @@
     <string name="descricao_img_obs2"> Pessoa obesa2 </string>
     <string name="classificacao_obs2Hint"> Resultado: obesidade II </string>
     <string name="frase_obs2Hint"> Reverter é essencial! 🏃 </string>
+
+    <!-- Tela para Obesidade Grau III (Obesidade3Activity) -->
+    <string name="descricao_img_obs3"> Pessoa obesa3 </string>
+    <string name="classificacao_obs3Hint"> Resultado: obesidade III </string>
+    <string name="frase_obs3Hint"> Saúde em risco... 🩻 </string>
+
 </resources>
-
-
-    <!-- Abaixo do peso (AbaixoDoPesoActivity)
-    “Cuide da sua nutrição! Alimentação equilibrada e acompanhamento profissional podem fazer a diferença.”
-
-    Peso normal (PesoNormalActivity)
-    “Ótimo trabalho! Continue mantendo hábitos saudáveis para seu bem-estar.”
-
-    Sobrepeso (SobrepesoActivity)
-    “Pequenas mudanças no dia a dia fazem a diferença! Que tal incluir mais movimento e escolhas equilibradas?”
-
-    Obesidade grau 1 (Obesidade1Activity)
-    “Seu bem-estar é prioridade! Um passo de cada vez pode levar a grandes mudanças.”
-
-    Obesidade grau 2 (Obesidade2Activity)
-    “Seu corpo merece cuidado! Busque orientação e dê o primeiro passo para uma vida mais saudável.”
-
-    Obesidade grau 3 (Obesidade3Activity)
-    “Você tem o poder de transformar sua saúde! Conte com apoio profissional e faça escolhas positivas.” -->
