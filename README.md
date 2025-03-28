@@ -1,5 +1,4 @@
 # 📱 Projeto Calculadora para IMC
-
 ---
 
 ## Autoria: [Guilherme Reis Fogolin de Godoy](https://www.linkedin.com/in/guilhermefogolin/)
@@ -93,3 +92,11 @@ Obesidade grau III IMC >= 40
 3️⃣ Caso indique problemas com vírus e afins pode apertar em confiar.
 <br>
 4️⃣ Abra o app e conheça todas suas funcionalidades!
+
+## 📸 Exemplos de telas do aplicativo
+
+<p align="center">
+  <img src="./img/main.png" width="33%">
+  <img src="./img/exemplo2.png" width="33%">
+  <img src="./img/exemplo.png" width="33%">
+</p>
