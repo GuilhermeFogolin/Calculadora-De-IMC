@@ -72,21 +72,24 @@ Obesidade grau III IMC >= 40
 
 ## ⚙️ Como instalar localmente?
 
-```
-1 - Faça o download do arquivo .zip na pasta pastaZip.
-2 - Descompacte os arquivos.
-3 - Abra a pasta no Android Studio na versão Ladybug Feature Drop | 2024.2.2
-4 - Aguarde a instalação das dependências.
-5 - Rode o app e aproveite!
-```
+1️⃣ Faça o download do arquivo .zip na pasta [pastaZip](./pastaZip).
+<br>
+2️⃣ Descompacte os arquivos.
+<br>
+3️⃣ Abra a pasta no Android Studio na versão Ladybug Feature Drop | 2024.2.2.
+<br>
+4️⃣ Aguarde a instalação das dependências.
+<br>
+5️⃣ Rode o app e aproveite!
 
 ---
 
 ## 🤳 Como testar no seu celular Android?
 
-```
-1 - Exporte o arquivo da pasta apk para o seu celular Android (iOS não é suportado).
-2 - Instale o aplicativo pelo próprio sistema.
-3 - Caso indique problemas com vírus e afins pode apertar em confiar.
-4 - Abra o app e conheça todas suas funcionalidades!
-```
+1️⃣ Exporte o arquivo da pasta [apk](./apk) para o seu celular Android (iOS não é suportado).
+<br>
+2️⃣ Instale o aplicativo pelo próprio sistema.
+<br>
+3️⃣ Caso indique problemas com vírus e afins pode apertar em confiar.
+<br>
+4️⃣ Abra o app e conheça todas suas funcionalidades!
