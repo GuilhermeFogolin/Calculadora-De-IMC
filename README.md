@@ -1,7 +1,7 @@
 # 📱 Projeto Calculadora para IMC
 ---
 
-## Autoria: [Guilherme Reis Fogolin de Godoy](https://www.linkedin.com/in/guilhermefogolin/)
+## 🧑‍🔬 Autoria: [Guilherme Reis Fogolin de Godoy](https://www.linkedin.com/in/guilhermefogolin/)
 
 ---
 
