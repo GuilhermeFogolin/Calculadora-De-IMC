@@ -12,7 +12,7 @@
         android:id="@+id/iv_sobrepeso"
         android:layout_width="229dp"
         android:layout_height="193dp"
-        android:contentDescription="@string/descricao_img_normal"
+        android:contentDescription="@string/descricao_img_sobrepeso"
         android:src="@drawable/sobre"
         app:layout_constraintBottom_toTopOf="@+id/btnFecharSobrepeso"
         app:layout_constraintEnd_toEndOf="parent"
